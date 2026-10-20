@@ -1,0 +1,46 @@
+
+# Day 1: Two PCs Connected to One Switch
+
+## Objective
+To learn basic networking by connecting two PCs to a Cisco 2960 switch, configuring IPv4 addresses, and testing connectivity using ping.
+
+## Lab Environment
+- Software: Cisco Packet Tracer 9.0.0
+- Device: Cisco Catalyst 2960 Switch
+- End Devices: PC0 and PC1
+- Cable Type: Copper Straight-Through
+
+## Network Topology
+Two PCs are connected to one Cisco 2960 switch using copper straight-through cables.
+
+## IP Addressing Table
+
+| Device | IPv4 Address | Subnet Mask |
+|--------|--------------|-------------|
+| PC0    | 192.168.1.10 | 255.255.255.0 |
+| PC1    | 192.168.1.11 | 255.255.255.0 |
+
+## Procedure
+1. Added two PCs and one Cisco 2960 switch to the Packet Tracer workspace.
+2. Connected both PCs to the switch using copper straight-through cables.
+3. Configured the IPv4 addresses and subnet masks on both PCs.
+4. Tested connectivity by sending a ping from PC0 to PC1.
+
+## Verification
+- Test: Ping from PC0 to PC1
+- Result: Successful
+
+## What I Learned
+- How to connect PCs to a network switch.
+- How to configure IPv4 addresses and subnet masks.
+- How to test connectivity using ping.
+- How a switch connects devices within a local area network (LAN).
+
+## Lab Files
+- `Day-01-Two-PCs-One-Switch.pkt`
+- `Day-01-Topology.png` (screenshot, once saved)
+
+## Conclusion
+Successfully established connectivity between two PCs connected to a Cisco 2960 switch in Cisco Packet Tracer.
+
+This lab is part of my Network Engineering learning journey.

@@ -1,0 +1,55 @@
+
+# Day 2: IP Address Troubleshooting
+
+## Objective
+To troubleshoot a basic network connectivity issue between two PCs connected to a Cisco 2960 switch.
+
+## Lab Environment
+- Software: Cisco Packet Tracer 9.0.0
+- Network Device: Cisco 2960 Switch
+- End Devices: PC0 and PC1
+- Cable: Copper Straight-Through
+
+## Network Topology
+PC0 and PC1 are connected to the Cisco 2960 switch using copper straight-through cables.
+
+## IP Addressing Table
+
+| Device | IPv4 Address | Subnet Mask |
+|--------|--------------|-------------|
+| PC0    | 192.168.1.10 | 255.255.255.0 |
+| PC1    | 192.168.1.11 | 255.255.255.0 |
+
+## Troubleshooting Process
+1. Connected both PCs to the switch.
+2. Observed that both switch connections showed green indicators.
+3. Tested connectivity from PC0 to PC1 using ping.
+4. Received a "Request timed out" message.
+5. Checked the IP configuration and found that PC0 had an incorrect IP address.
+6. Corrected PC0's IP address to 192.168.1.10.
+7. Tested connectivity again.
+
+## Verification Command
+
+```text
+ping 192.168.1.11
+```
+
+## Result
+Ping replies were received after correcting PC0's IP address.
+
+## What I Learned
+- How to check physical connections in Packet Tracer.
+- Why each PC in the same LAN needs a unique IP address.
+- How to use ping to test network connectivity.
+- How to troubleshoot an IP configuration problem.
+
+## Lab Files
+- Day-02-IP-Troubleshooting.pkt
+- Day-02-Topology.png
+- Day-02-Ping-Success.png
+
+## Conclusion
+Successfully identified and corrected an IP addressing problem and restored connectivity between two PCs in a local area network.
+
+This lab is part of my Network Engineering learning portfolio.
