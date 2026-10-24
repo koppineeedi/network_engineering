@@ -1,0 +1,37 @@
+# Day 04 - Basic Switch Configuration
+
+## Objective
+Learn the basics of configuring a Cisco switch using Cisco Packet Tracer.
+
+## Tools Used
+- Cisco Packet Tracer 9.0.0
+- Cisco 2960 Switch
+
+## Configuration Performed
+- Accessed the switch CLI.
+- Entered privileged EXEC mode using `enable`.
+- Entered global configuration mode using `configure terminal`.
+- Changed the hostname to `LAB-SW1`.
+- Verified the hostname using `show running-config`.
+- Saved the configuration using `copy running-config startup-config`.
+
+## Commands Used
+enable
+configure terminal
+hostname LAB-SW1
+end
+copy running-config startup-config
+show running-config
+```
+
+## What I Learned
+- How to access the Cisco switch CLI.
+- How to configure a switch hostname.
+- The difference between running configuration and startup configuration.
+- How to save and verify switch configuration.
+
+## Project File
+`Day-04-Basic-Switch-Configuration.pkt`
+
+## Status
+Day 04 completed successfully.
